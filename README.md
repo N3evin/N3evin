@@ -48,6 +48,11 @@
 ### 📕 Latest Portfolio Post
 
 <!-- BLOG-POST-LIST:START -->
+- [Bossjob.ph back-end](https://www.n3evin.com/bossjob-ph-back-end/)
+- [Yolo Technology Corporate Website](https://www.n3evin.com/yolo-technology-corporate-website/)
+- [Dijkstra’s Algorithm in Unity](https://www.n3evin.com/dijkstras-algorithm-in-unity/)
+- [WeatherPi – A raspberry pi weather application](https://www.n3evin.com/weatherpi-a-raspberry-pi-weather-application/)
+- [Discord’s Bot NurseJoy](https://www.n3evin.com/discords-bot-nursejoy/)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [more portfolio posts...][website]
