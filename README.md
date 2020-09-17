@@ -1,5 +1,7 @@
 ### Hi there, I'm Nevin 👋
 
+<img align="right" width="300px" src="https://thumbs.gfycat.com/DifficultLimpingBubblefish-small.gif" />
+
 - 🌱 I’m currently learning everything I need to know about being a Developer.
 - 😄 Pronouns: Ner-vin
 - ⚡ Fun fact: I love to build model kits and play DnD.
