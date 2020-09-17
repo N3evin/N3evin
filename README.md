@@ -11,7 +11,7 @@
 [<img align="left" alt="N3evin | Twitter" width="22px"  src="https://simpleicons.org/icons/twitter.svg" />][twitter]
 [<img align="left" alt="N3evin | Facebook" width="22px"  src="https://simpleicons.org/icons/facebook.svg" />][facebook]
 
-</ br>
+<br />
 
 ### Languages and Tools:
 
