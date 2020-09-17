@@ -1,6 +1,6 @@
 ### Hi there, I'm Nevin 👋
 
-<img align="right" width="300px" src="https://thumbs.gfycat.com/DifficultLimpingBubblefish-small.gif" />
+<img align="right" width="330px" src="https://thumbs.gfycat.com/DifficultLimpingBubblefish-small.gif" />
 
 - 🌱 I’m currently learning everything I need to know about being a Developer.
 - 😄 Pronouns: Ner-vin
@@ -37,7 +37,6 @@
 
 <br />
 <br />
-<br />
 
 ### Connect with me:
 
@@ -46,6 +45,7 @@
 [<img align="left" alt="N3evin | Twitter" width="22px"  src="https://simpleicons.org/icons/twitter.svg" />][twitter]
 [<img align="left" alt="N3evin | Facebook" width="22px"  src="https://simpleicons.org/icons/facebook.svg" />][facebook]
 
+<br />
 <br />
 
 ### 📕 Latest Portfolio Post
@@ -59,8 +59,6 @@
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [more portfolio posts...][website]
-
-<br />
 
 ---
 
