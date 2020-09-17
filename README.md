@@ -6,15 +6,6 @@
 - 😄 Pronouns: Ner-vin
 - ⚡ Fun fact: I love to build model kits and play DnD.
 
-### Connect with me:
-
-[<img align="left" alt="N3evin | Porfolio" width="22px"  src="https://simpleicons.org/icons/wordpress.svg" />][website]
-[<img align="left" alt="N3evin | LinkedIn" width="22px"  src="https://simpleicons.org/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="N3evin | Twitter" width="22px"  src="https://simpleicons.org/icons/twitter.svg" />][twitter]
-[<img align="left" alt="N3evin | Facebook" width="22px"  src="https://simpleicons.org/icons/facebook.svg" />][facebook]
-
-<br />
-
 ### Languages and Tools:
 
 [<img align="left" alt="AWS" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />][website]
@@ -46,6 +37,16 @@
 
 <br />
 <br />
+<br />
+
+### Connect with me:
+
+[<img align="left" alt="N3evin | Porfolio" width="22px"  src="https://simpleicons.org/icons/wordpress.svg" />][website]
+[<img align="left" alt="N3evin | LinkedIn" width="22px"  src="https://simpleicons.org/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="N3evin | Twitter" width="22px"  src="https://simpleicons.org/icons/twitter.svg" />][twitter]
+[<img align="left" alt="N3evin | Facebook" width="22px"  src="https://simpleicons.org/icons/facebook.svg" />][facebook]
+
+<br />
 
 ### 📕 Latest Portfolio Post
 
@@ -58,6 +59,8 @@
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [more portfolio posts...][website]
+
+<br />
 
 ---
 
