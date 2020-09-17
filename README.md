@@ -57,6 +57,11 @@
 
 ➡️ [more portfolio posts...][website]
 
+---
+
+<img align="left" alt="N3evin" src="https://github-readme-stats.vercel.app/api?username=n3evin&show_icons=true&hide_border=true" />
+
+
 [website]: https://www.n3evin.com
 [twitter]: https://twitter.com/n3evin
 [facebook]: https://www.facebook.com/nevin.vu
