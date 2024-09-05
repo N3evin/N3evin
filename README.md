@@ -1,6 +1,6 @@
 ### Hi there, I'm Nevin 👋
 
-<img align="right" width="330px" src="https://thumbs.gfycat.com/DifficultLimpingBubblefish-small.gif" />
+<img align="right" width="330px" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzRxZDRpZjFmeXdwbnlkdm1tN2M4aXZ1eTBydDUwMW16endxc250eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vzO0Vc8b2VBLi/giphy.gif"/>
 
 - 🌱 I’m currently learning everything I need to know about being a Developer.
 - 😄 Pronouns: Ner-vin
@@ -26,14 +26,13 @@
 [<img align="left" alt="C" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-line.svg" />][website]
 [<img align="left" alt="Java" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" />][website]
 [<img align="left" alt="Jquery" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original-wordmark.svg" />][website]
-[<img align="left" alt="Laravel" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" />][website]
+[<img align="left" alt="Laravel" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original-wordmark.svg" />][website]
 [<img align="left" alt="Ngnix" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" />][website]
 [<img align="left" alt="Php" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" />][website]
-[<img align="left" alt="Laravel" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" />][website]
 [<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" />][website]
 [<img align="left" alt="Redis" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" />][website]
 [<img align="left" alt="Photoshop" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" />][website]
-[<img align="left" alt="Sublime" width="26px" src="https://cdn.worldvectorlogo.com/logos/sublime-text.svg" />][website]
+[<img align="left" alt="Sublime" width="26px" src="https://www.svgrepo.com/show/452109/sublime-text.svg" />][website]
 
 <br />
 <br />
@@ -44,7 +43,7 @@
 
 [<img align="left" alt="N3evin | Porfolio" width="22px"  src="https://simpleicons.org/icons/wordpress.svg" />][website]
 [<img align="left" alt="N3evin | LinkedIn" width="22px"  src="https://simpleicons.org/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="N3evin | Twitter" width="22px"  src="https://simpleicons.org/icons/twitter.svg" />][twitter]
+[<img align="left" alt="N3evin | Twitter" width="22px"  src="https://simpleicons.org/icons/x.svg" />][twitter]
 [<img align="left" alt="N3evin | Facebook" width="22px"  src="https://simpleicons.org/icons/facebook.svg" />][facebook]
 
 <br />
@@ -68,6 +67,6 @@
 
 
 [website]: https://www.n3evin.com
-[twitter]: https://twitter.com/n3evin
+[twitter]: https://x.com/n3evin
 [facebook]: https://www.facebook.com/nevin.vu
 [linkedin]: https://www.linkedin.com/in/n3evin/
