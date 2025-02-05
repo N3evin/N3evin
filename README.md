@@ -42,24 +42,12 @@
 ### Connect with me:
 
 [<img align="left" alt="N3evin | Porfolio" width="22px"  src="https://simpleicons.org/icons/wordpress.svg" />][website]
-[<img align="left" alt="N3evin | LinkedIn" width="22px"  src="https://simpleicons.org/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="N3evin | LinkedIn" width="22px"  src="https://img.icons8.com/?size=100&id=447&format=png&color=000000" />][linkedin]
 [<img align="left" alt="N3evin | Twitter" width="22px"  src="https://simpleicons.org/icons/x.svg" />][twitter]
 [<img align="left" alt="N3evin | Facebook" width="22px"  src="https://simpleicons.org/icons/facebook.svg" />][facebook]
 
 <br />
 <br />
-
-### 📕 Latest Portfolio Post
-
-<!-- BLOG-POST-LIST:START -->
-- [Bossjob.ph back-end](https://www.n3evin.com/bossjob-ph-back-end/)
-- [Yolo Technology Corporate Website](https://www.n3evin.com/yolo-technology-corporate-website/)
-- [Dijkstra’s Algorithm in Unity](https://www.n3evin.com/dijkstras-algorithm-in-unity/)
-- [WeatherPi – A raspberry pi weather application](https://www.n3evin.com/weatherpi-a-raspberry-pi-weather-application/)
-- [Discord’s Bot NurseJoy](https://www.n3evin.com/discords-bot-nursejoy/)
-<!-- BLOG-POST-LIST:END -->
-
-➡️ [more portfolio posts...][website]
 
 ---
 
