@@ -41,7 +41,6 @@
 
 ### Connect with me:
 
-[<img align="left" alt="N3evin | Porfolio" width="22px"  src="https://simpleicons.org/icons/wordpress.svg" />][website]
 [<img align="left" alt="N3evin | LinkedIn" width="22px"  src="https://img.icons8.com/?size=100&id=447&format=png&color=000000" />][linkedin]
 [<img align="left" alt="N3evin | Twitter" width="22px"  src="https://simpleicons.org/icons/x.svg" />][twitter]
 [<img align="left" alt="N3evin | Facebook" width="22px"  src="https://simpleicons.org/icons/facebook.svg" />][facebook]
