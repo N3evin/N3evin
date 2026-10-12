@@ -17,7 +17,6 @@
     { "label": "About", "href": "/#about" },
     { "label": "Expertise", "href": "/#expertise" },
     { "label": "Projects", "href": "/#projects" },
-    { "label": "Beyond Work", "href": "/#beyond" },
     { "label": "Contact", "href": "/#contact" }
   ],
   "hero": {
@@ -63,19 +62,6 @@
     "headline": "Built in the open.",
     "text": "Most of what I make ends up on GitHub. These are the repositories worth a look.",
     "note": "Star and fork counts are refreshed from the GitHub API each time the site is built."
-  },
-  "beyond": {
-    "eyebrow": "Beyond work",
-    "headline": "Beyond the architecture",
-    "text": "What I get up to when the diagrams are put away.",
-    "items": [
-      { "icon": "camera", "tone": "blue", "span": 5, "tablet": 3, "title": "Landscape photography", "text": "Chasing good light and wide views, camera in hand." },
-      { "icon": "cube", "tone": "lavender", "span": 3, "tablet": 3, "title": "Model kits", "text": "Slow, careful builds. The opposite of a sprint." },
-      { "icon": "dice", "tone": "rose", "span": 4, "tablet": 3, "title": "Dungeons & Dragons", "text": "Stories, dice and questionable decisions with friends." },
-      { "icon": "server", "tone": "mint", "span": 4, "tablet": 3, "title": "Homelab & self-hosting", "text": "Running my own services at home, mostly to learn how they really work." },
-      { "icon": "chip", "tone": "amber", "span": 3, "tablet": 3, "title": "Hardware tinkering", "text": "Raspberry Pis, smartwatches and whatever else lands on the desk." },
-      { "icon": "spark", "tone": "white", "span": 5, "tablet": 3, "title": "Side projects", "text": "Small ideas that somehow turn into weekends." }
-    ]
   },
   "contact": {
     "eyebrow": "Contact",

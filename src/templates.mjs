@@ -216,7 +216,7 @@ function graphViz(uid = "g") {
   const end = (c, r, t) =>
     `<circle cx="${X(c)}" cy="${Y(r)}" r="12" fill="url(#${uid})"/><text x="${X(c)}" y="${Y(r)}" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="12" font-weight="700">${t}</text>`;
   const w = pad * 2 + (cols - 1) * step, h = pad * 2 + (rows - 1) * step;
-  return `<div class="viz viz--graph"><svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Shortest path from A to B routing around blocked nodes">
+  return `<div class="viz viz--graph"><svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Shortest path from A to B routing around blocked nodes">
   <defs><linearGradient id="${uid}" gradientUnits="userSpaceOnUse" x1="${X(0)}" y1="${Y(3)}" x2="${X(5)}" y2="${Y(1)}"><stop offset="0" stop-color="#2563EB"/><stop offset="1" stop-color="#7C3AED"/></linearGradient></defs>
   <g stroke="#C4B5FD" stroke-opacity=".7" stroke-width="1.5">${edges}</g>
   ${nodes}
@@ -276,7 +276,7 @@ export function projectCard(p, ctx) {
         `<a class="chiplink" href="${esc(l.url)}"${extAttrs(l.url)}>${l.icon ? icon(l.icon) : ""}<span>${esc(l.label)}</span>${l.icon ? "" : icon("external")}</a>`
     )
     .join("");
-  return `<article class="card pcard${wide ? " pcard--wide" : ""} reveal" style="${span(p)}">
+  return `<article class="card pcard${wide ? " pcard--wide" : ""}${p.layout === "wide" ? " pcard--row" : ""} reveal" style="${span(p)}">
   <div class="pcard__viz">${projectVisual(p)}</div>
   <div class="pcard__body">
     <p class="kind">${esc(p.kind)}</p>
@@ -289,7 +289,7 @@ export function projectCard(p, ctx) {
 }
 
 export function moreOnGithub(site) {
-  return `<a class="card more reveal" style="--c:4;--t:6" href="${esc(site.social.find((s) => s.id === "github").url)}" target="_blank" rel="noopener">
+  return `<a class="card more reveal" style="--c:12;--t:6" href="${esc(site.social.find((s) => s.id === "github").url)}" target="_blank" rel="noopener">
   ${icon("github", "more__icon")}
   <svg class="more__deco" viewBox="0 0 160 100" aria-hidden="true" focusable="false"><defs><pattern id="mdots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="currentColor"/></pattern></defs><rect width="160" height="100" fill="url(#mdots)"/><g stroke="currentColor" stroke-width="1.5" fill="#fff"><path d="M30 70L70 30L120 55L140 20" fill="none"/><circle cx="30" cy="70" r="6"/><circle cx="70" cy="30" r="6"/><circle cx="120" cy="55" r="6"/><circle cx="140" cy="20" r="6"/></g></svg>
   <span class="more__text"><span class="more__title">More on GitHub</span><span class="more__handle">${esc(site.social.find((s) => s.id === "github").handle)}</span></span>
@@ -452,24 +452,6 @@ function openSourceSection(ctx) {
 </section>`;
 }
 
-function beyondSection({ site }) {
-  const b = site.beyond;
-  return `<section class="section" id="beyond" aria-labelledby="beyond-h">
-  <div class="container">
-    ${sectionHeading({ eyebrow: b.eyebrow, title: b.headline, text: b.text, variant: "sh--center", id: "beyond-h" })}
-    <div class="bento">${b.items
-      .map(
-        (it) => `<div class="card tile tile--${esc(it.tone)} reveal" style="${span(it)}">
-      <span class="tile__chip">${icon(it.icon)}</span>
-      <h3>${esc(it.title)}</h3>
-      <p>${esc(it.text)}</p>
-    </div>`
-      )
-      .join("")}</div>
-  </div>
-</section>`;
-}
-
 function contactSection({ site }) {
   const c = site.contact;
   const mail = site.social.find((s) => s.id === "mail");
@@ -548,7 +530,6 @@ export function renderHome(ctx) {
     expertiseSection(ctx),
     projectsSection(ctx),
     openSourceSection(ctx),
-    beyondSection(ctx),
     contactSection(ctx),
   ].join("\n");
   const sameAs = site.social.filter((s) => s.id !== "mail").map((s) => s.url);

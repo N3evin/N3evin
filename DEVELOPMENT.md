@@ -42,7 +42,6 @@ _site/                              Build output (gitignored)
 - `hero` — headline, eyebrow, CTA buttons
 - `about` — bio section
 - `expertise` — skills cards (`span`, `tablet`, `tone`, `icon`, `title`, `text`)
-- `beyond` — personal interest tiles
 - `contact` — contact section
 - `nav` — header and footer links
 - `social` — links; the entry with `id: "github"` drives the GitHub links, `id: "mail"` is the email entry
@@ -79,6 +78,7 @@ Fields:
 - `links` — `{ label, url, primary?, icon? }`. `primary` styles the button; `icon: "github"` shows the GitHub icon.
 - `showStats` — shows stars/forks on the card even if zero. The hero stat uses the first project with `showStats`.
 - `span` — desktop width on a 12-column grid (default 12). `span` 7 or more renders the card wide.
+- `layout` — optional; `"wide"` lays the card out horizontally (visual left, text right) at 1000px and up. Use with `span` 12.
 - `tablet` — width on a 6-column grid (default 6).
 - `featured` — at most one. Shown as the large feature block above the grid and used for the hero Pebble card. Featured projects are not repeated in the grid.
 - `visual` — card visual:
