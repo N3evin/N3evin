@@ -85,7 +85,7 @@ export function header(site, current = "") {
   return `<header class="site-header" id="top">
   <div class="container">
     <div class="pill">
-      <a class="logo" href="/" aria-label="${esc(site.name)} — home">${esc(site.name)}<span class="logo__dot">.</span></a>
+      <a class="logo" href="/" aria-label="${esc(site.name)}, home">${esc(site.name)}<span class="logo__dot">.</span></a>
       <nav class="nav" id="site-nav" aria-label="Primary">
         <ul>${site.nav
           .map((n) => {
@@ -289,7 +289,7 @@ export function projectCard(p, ctx) {
 }
 
 export function moreOnGithub(site) {
-  return `<a class="card more reveal" style="--c:4;--t:3" href="${esc(site.social.find((s) => s.id === "github").url)}" target="_blank" rel="noopener">
+  return `<a class="card more reveal" style="--c:4;--t:6" href="${esc(site.social.find((s) => s.id === "github").url)}" target="_blank" rel="noopener">
   ${icon("github", "more__icon")}
   <svg class="more__deco" viewBox="0 0 160 100" aria-hidden="true" focusable="false"><defs><pattern id="mdots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="currentColor"/></pattern></defs><rect width="160" height="100" fill="url(#mdots)"/><g stroke="currentColor" stroke-width="1.5" fill="#fff"><path d="M30 70L70 30L120 55L140 20" fill="none"/><circle cx="30" cy="70" r="6"/><circle cx="70" cy="30" r="6"/><circle cx="120" cy="55" r="6"/><circle cx="140" cy="20" r="6"/></g></svg>
   <span class="more__text"><span class="more__title">More on GitHub</span><span class="more__handle">${esc(site.social.find((s) => s.id === "github").handle)}</span></span>
@@ -652,7 +652,7 @@ export function renderProject(ctx, p) {
     },
   ];
   return layout(ctx, {
-    title: `${p.name} — ${site.name}`,
+    title: `${p.name} | ${site.name}`,
     description: p.summary,
     path: projectHref(p),
     body,
@@ -670,7 +670,7 @@ export function render404(ctx) {
   <div class="btn-row">${button({ label: "Back to home", href: "/", variant: "primary", trailing: "arrow" })}</div>
 </section>`;
   return layout(ctx, {
-    title: `Page not found — ${site.name}`,
+    title: `Page not found | ${site.name}`,
     description: site.description,
     path: "/404.html",
     body,

@@ -4,7 +4,7 @@
     "name": "Pebble Golf Live",
     "kind": "Smartwatch app",
     "tagline": "Live pro golf on your wrist.",
-    "summary": "A Pebble watchapp for following professional golf as it happens — leaderboards, scorecards and schedules, a glance away.",
+    "summary": "A Pebble watchapp for following professional golf as it happens, with leaderboards, scorecards and schedules a glance away.",
     "featured": true,
     "visual": "watches",
     "repo": "Pebble-Golf-Live",
@@ -36,7 +36,6 @@
       ],
       "sections": [
         { "title": "Designed for a glance", "text": "A watch screen is tiny, so every view answers one question: who is leading, how a player is going, or what is on next. The layout is tailored separately for the rectangular Pebble Time 2 and the circular Pebble Round 2." },
-        { "title": "Where the data comes from", "text": "Scores come from ESPN's public golf feeds. These are unofficial, so the app is not affiliated with ESPN or any tour." },
         { "title": "About the repository", "text": "The public repository hosts the project website, screenshots and the issue tracker for bugs and feature requests. The watchapp source is maintained separately." }
       ],
       "extraLinks": [
@@ -57,7 +56,7 @@
     "showStats": true,
     "stack": ["Python", "Flask", "Docker", "GitHub Actions"],
     "highlights": [
-      "Simple JSON endpoints — fetch every amiibo or filter by name or hexadecimal key",
+      "Simple JSON endpoints to fetch every amiibo or filter by name or hexadecimal key",
       "Works with any platform that can make an HTTP request",
       "Data kept current through automated GitHub Actions workflows",
       "Documentation and a live instance at amiiboapi.com"
@@ -104,7 +103,7 @@
         "The interface is written in Python 3 using tkinter, with weather data from the Yahoo Weather API."
       ],
       "sections": [
-        { "title": "Why I built it", "text": "It was an excuse to put software and hardware together — taking an idea from a script on a laptop to a physical object sitting on a desk." }
+        { "title": "Why I built it", "text": "It was an excuse to put software and hardware together, taking an idea from a script on a laptop to a physical object sitting on a desk." }
       ]
     }
   },
@@ -114,7 +113,7 @@
     "kind": "Algorithm visualisation",
     "tagline": "Shortest-path finding, visualised in Unity 3D.",
     "summary": "Dijkstra's shortest-path algorithm in Unity 3D. Pick two points, block some nodes, and watch it route around them.",
-    "span": 5,
+    "span": 8,
     "tablet": 6,
     "visual": "graph",
     "repo": "Dijkstra-Algorithm-Unity",
@@ -134,20 +133,5 @@
         "Nodes can be blocked to act as obstacles, and the path updates to avoid them. Selection works like a strategy game: drag the mouse to select several nodes at once."
       ]
     }
-  },
-  {
-    "slug": "global-game-jam-2020",
-    "name": "Global Game Jam 2020",
-    "kind": "Game jam",
-    "tagline": "A game built over a jam weekend.",
-    "summary": "A Global Game Jam 2020 entry — a game made from scratch against the clock.",
-    "span": 3,
-    "tablet": 3,
-    "visual": "none",
-    "repo": "Global-Game-Jam-2020",
-    "stack": ["C#"],
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/N3evin/Global-Game-Jam-2020", "icon": "github" }
-    ]
   }
 ]

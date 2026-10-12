@@ -5,9 +5,9 @@
   "location": "Melbourne, Australia",
   "email": "n3evin@hotmail.com",
   "githubUser": "N3evin",
-  "title": "Nevin Vu — Senior Solution Architect & Builder, Melbourne",
-  "description": "Nevin Vu is a Senior Solution Architect in Melbourne who designs scalable, practical systems — and builds his own ideas across APIs, smartwatch apps and hardware.",
-  "photo": { "src": "/assets/nevin.jpg", "alt": "Nevin Vu smiling outdoors, wearing clear glasses and a light checked shirt", "w": 460, "h": 460 },
+  "title": "Nevin Vu | Senior Solution Architect & Builder, Melbourne",
+  "description": "Nevin Vu is a Senior Solution Architect in Melbourne who designs scalable, practical systems and builds his own ideas across APIs, smartwatch apps and hardware.",
+  "photo": { "src": "/assets/nevin.jpg", "alt": "Nevin Vu smiling outdoors, wearing clear glasses and a light checked shirt", "w": 1200, "h": 1800 },
   "social": [
     { "id": "linkedin", "label": "LinkedIn", "handle": "linkedin.com/in/n3evin", "url": "https://www.linkedin.com/in/n3evin/" },
     { "id": "github", "label": "GitHub", "handle": "github.com/N3evin", "url": "https://github.com/N3evin" },
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "Senior Solution Architect · Melbourne",
     "headline": ["Designing systems.", "Building ideas.", "Making technology work."],
-    "text": "I'm Nevin, a Senior Solution Architect based in Melbourne. I turn complex technical problems into scalable, practical solutions — and bring my own ideas to life through software and hardware.",
+    "text": "I'm Nevin, a Senior Solution Architect based in Melbourne. I turn complex technical problems into scalable, practical solutions, and bring my own ideas to life through software and hardware.",
     "primary": { "label": "Explore my work", "href": "#projects" },
     "secondary": { "label": "Let's connect", "href": "#contact" }
   },
@@ -31,12 +31,12 @@
     "eyebrow": "About",
     "headline": "An architect by profession. A builder by nature.",
     "paragraphs": [
-      "By day I work as a Senior Solution Architect: turning business needs into systems that are practical to build, sensible to run and secure by design. Most of that work is about decisions — what to connect, what to keep simple, and which trade-offs are worth making.",
-      "Outside of work I still write code, because I like making things. An open API for amiibo data, a live golf leaderboard for a smartwatch, a weather display on a Raspberry Pi — if an idea is interesting enough, I usually end up building it."
+      "By day I work as a Senior Solution Architect, turning business needs into systems that are practical to build, sensible to run and secure by design. Most of that work is about decisions: what to connect, what to keep simple, and which trade-offs are worth making.",
+      "Outside of work I still write code, because I like making things. An open API for amiibo data, a live golf leaderboard for a smartwatch, a weather display on a Raspberry Pi. If an idea is interesting enough, I usually end up building it."
     ],
     "facts": [
       { "icon": "pin", "label": "Based in", "value": "Melbourne, Australia" },
-      { "icon": "cap", "label": "Studied", "value": "Monash University — Computer Science" },
+      { "icon": "cap", "label": "Studied", "value": "Monash University - Computer Science" },
       { "icon": "chat", "label": "Speaks", "value": "English and Chinese" }
     ]
   },
@@ -45,18 +45,18 @@
     "headline": "Good architecture is a series of good decisions.",
     "text": "Technology choices matter, but the real work is understanding the problem, weighing the trade-offs and getting something dependable delivered.",
     "items": [
-      { "icon": "layers", "span": 7, "tablet": 6, "tone": "lavender", "title": "Solution Architecture", "text": "Translating business requirements into a clear technical direction — a design people can understand, build and still live with years later." },
+      { "icon": "layers", "span": 7, "tablet": 6, "tone": "lavender", "title": "Solution Architecture", "text": "Translating business requirements into a clear technical direction: a design people can understand, build and still live with years later." },
       { "icon": "nodes", "span": 5, "tablet": 6, "title": "System Design & Integration", "text": "Connecting systems so data flows where it should. Clean interfaces, well-defined contracts and as few moving parts as the problem allows.", "tags": ["REST APIs", "Integration"] },
-      { "icon": "cloud", "span": 4, "tablet": 3, "title": "Cloud & Infrastructure", "text": "Choosing where things run, and how — balancing cost, operability and room to grow.", "tags": ["AWS", "Docker", "Linux", "Nginx"] },
+      { "icon": "cloud", "span": 4, "tablet": 3, "title": "Cloud & Infrastructure", "text": "Choosing where things run and how, balancing cost, operability and room to grow.", "tags": ["AWS", "Docker", "Linux", "Nginx"] },
       { "icon": "code", "span": 4, "tablet": 3, "tone": "blue", "title": "Software Engineering", "text": "Still hands-on. Writing code keeps my designs honest about what is actually easy or hard to build.", "tags": ["Python", "TypeScript", "Node.js", "C#", "Java"] },
       { "icon": "shield", "span": 4, "tablet": 6, "title": "Security, Reliability & Scale", "text": "Designing for the bad day as well as the good one: secure by default, resilient to failure, ready for load." },
-      { "icon": "compass", "span": 12, "tablet": 6, "wide": true, "title": "Technical Leadership", "text": "Helping teams and stakeholders reach the same picture — explaining options plainly, making the call, and staying close enough to delivery to see it through." }
+      { "icon": "compass", "span": 12, "tablet": 6, "wide": true, "title": "Technical Leadership", "text": "Helping teams and stakeholders reach the same picture by explaining options plainly, making the call, and staying close enough to delivery to see it through." }
     ]
   },
   "projects": {
     "eyebrow": "Projects",
     "headline": "Things I've built",
-    "text": "A collection of ideas, experiments and projects I've brought to life — from APIs to applications and hardware."
+    "text": "A collection of ideas, experiments and projects I've brought to life, from APIs to applications and hardware."
   },
   "openSource": {
     "eyebrow": "Open source",
