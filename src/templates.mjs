@@ -435,7 +435,7 @@ function openSourceSection(ctx) {
       </li>`;
     })
     .join("");
-  return `<section class="section section--tight" id="open-source" aria-labelledby="os-h">
+  return `<section class="section" id="open-source" aria-labelledby="os-h">
   <div class="container bento">
     <div class="card os__lead reveal" style="--c:5;--t:6">
       ${icon("github", "os__icon")}
