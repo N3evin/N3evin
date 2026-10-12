@@ -1,0 +1,153 @@
+[
+  {
+    "slug": "pebble-golf-live",
+    "name": "Pebble Golf Live",
+    "kind": "Smartwatch app",
+    "tagline": "Live pro golf on your wrist.",
+    "summary": "A Pebble watchapp for following professional golf as it happens — leaderboards, scorecards and schedules, a glance away.",
+    "featured": true,
+    "visual": "watches",
+    "repo": "Pebble-Golf-Live",
+    "stack": ["Pebble Time 2", "Pebble Round 2", "Pebble Timeline"],
+    "highlights": [
+      "Live leaderboards for the PGA Tour, LPGA Tour and the majors",
+      "Player round summaries and hole-by-hole scorecards",
+      "Upcoming tournaments and historical results",
+      "Pebble Timeline integration",
+      "Touch and button navigation"
+    ],
+    "links": [
+      { "label": "Get the app", "url": "https://apps.repebble.com/80828e5b66b947ed982d4941", "primary": true },
+      { "label": "Website", "url": "https://pebblegolflive.n3evin.com/" },
+      { "label": "GitHub", "url": "https://github.com/N3evin/Pebble-Golf-Live", "icon": "github" }
+    ],
+    "screens": [
+      { "src": "/assets/projects/pebble-golf-live/time2-leaderboard.png", "frame": "time2", "hero": true, "caption": "Leaderboard", "alt": "Pebble Time 2 showing a final tournament leaderboard with player names and scores to par" },
+      { "src": "/assets/projects/pebble-golf-live/round2-scorecard.png", "frame": "round2", "hero": true, "caption": "Scorecard", "alt": "Pebble Round 2 showing a front-nine scorecard with par and score for holes 1 to 9" },
+      { "src": "/assets/projects/pebble-golf-live/time2-home.png", "frame": "time2", "caption": "Next major", "alt": "Pebble Time 2 showing the next major tournament with start and end dates and a countdown" },
+      { "src": "/assets/projects/pebble-golf-live/time2-scorecard.png", "frame": "time2", "caption": "Scorecard", "alt": "Pebble Time 2 showing a front-nine scorecard with par and score for holes 1 to 9" },
+      { "src": "/assets/projects/pebble-golf-live/round2-home.png", "frame": "round2", "caption": "Next major", "alt": "Pebble Round 2 showing the next major tournament and a countdown to its start" },
+      { "src": "/assets/projects/pebble-golf-live/round2-leaderboard.png", "frame": "round2", "caption": "Leaderboard", "alt": "Pebble Round 2 showing a final tournament leaderboard with player names and scores to par" }
+    ],
+    "detail": {
+      "overview": [
+        "Pebble Golf Live puts professional golf on a Pebble smartwatch. Open the app and you get the current tournament leaderboard, then drill into any player for their round summary and a hole-by-hole scorecard.",
+        "It covers the PGA Tour, the LPGA Tour and the men's and women's majors, along with upcoming schedules and past results. Scores refresh every 60 seconds while the app is open, and tournaments appear on the Pebble Timeline."
+      ],
+      "sections": [
+        { "title": "Designed for a glance", "text": "A watch screen is tiny, so every view answers one question: who is leading, how a player is going, or what is on next. The layout is tailored separately for the rectangular Pebble Time 2 and the circular Pebble Round 2." },
+        { "title": "Where the data comes from", "text": "Scores come from ESPN's public golf feeds. These are unofficial, so the app is not affiliated with ESPN or any tour." },
+        { "title": "About the repository", "text": "The public repository hosts the project website, screenshots and the issue tracker for bugs and feature requests. The watchapp source is maintained separately." }
+      ],
+      "extraLinks": [
+        { "label": "Rebble Store listing", "url": "https://apps.rebble.io/en_US/application/6ac5d5ac836dec0009992f81" }
+      ]
+    }
+  },
+  {
+    "slug": "amiiboapi",
+    "name": "AmiiboAPI",
+    "kind": "Open-source API",
+    "tagline": "A RESTful API for amiibo.",
+    "summary": "A free, public REST API for amiibo information, usable from any platform. My most widely used open-source project.",
+    "span": 7,
+    "tablet": 6,
+    "visual": "api",
+    "repo": "AmiiboAPI",
+    "showStats": true,
+    "stack": ["Python", "Flask", "Docker", "GitHub Actions"],
+    "highlights": [
+      "Simple JSON endpoints — fetch every amiibo or filter by name or hexadecimal key",
+      "Works with any platform that can make an HTTP request",
+      "Data kept current through automated GitHub Actions workflows",
+      "Documentation and a live instance at amiiboapi.com"
+    ],
+    "links": [
+      { "label": "amiiboapi.com", "url": "https://www.amiiboapi.com/", "primary": true },
+      { "label": "GitHub", "url": "https://github.com/N3evin/AmiiboAPI", "icon": "github" }
+    ],
+    "detail": {
+      "overview": [
+        "AmiiboAPI is a RESTful API created for retrieving amiibo information. Ask it for the full catalogue or search for a specific figure, and it answers with clean JSON that any app, bot or website can use.",
+        "It is built with Python and Flask, and can be self-hosted from the repository or with the included Dockerfile."
+      ],
+      "sections": [
+        { "title": "Built for developers", "text": "The API is deliberately small and predictable. /api/amiibo returns everything; add a query such as ?name=mario to narrow it down. Full documentation lives at amiiboapi.com/docs." },
+        { "title": "Keeping the data current", "text": "The catalogue is maintained as a shared amiibo database, and GitHub Actions workflows check that database and regenerate the JSON the API serves." },
+        { "title": "Project status", "text": "After years of active development the repository is now archived. It remains available as a reference and for anyone who wants to run their own instance." }
+      ]
+    }
+  },
+  {
+    "slug": "weatherpi",
+    "name": "WeatherPi",
+    "kind": "Hardware + software",
+    "tagline": "A desk weather display on a Raspberry Pi.",
+    "summary": "A Raspberry Pi weather display with a clock, local conditions and current temperature, written in Python with tkinter.",
+    "span": 5,
+    "tablet": 6,
+    "visual": "photo",
+    "image": { "src": "/assets/projects/weatherpi/screenshot.jpg", "w": 879, "h": 597, "alt": "WeatherPi running on a Raspberry Pi screen in a clear acrylic case, showing the time, location and current temperature" },
+    "repo": "WeatherPi",
+    "stack": ["Python 3", "tkinter", "Raspberry Pi"],
+    "highlights": [
+      "Full-screen clock, location and current temperature",
+      "Weather icons that follow the current conditions",
+      "Runs on a Raspberry Pi with a small display"
+    ],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/N3evin/WeatherPi", "icon": "github" }
+    ],
+    "detail": {
+      "overview": [
+        "WeatherPi is a small weather application made for the Raspberry Pi. It turns a Pi and a compact screen into an always-on desk display showing the time, the location and the current temperature.",
+        "The interface is written in Python 3 using tkinter, with weather data from the Yahoo Weather API."
+      ],
+      "sections": [
+        { "title": "Why I built it", "text": "It was an excuse to put software and hardware together — taking an idea from a script on a laptop to a physical object sitting on a desk." }
+      ]
+    }
+  },
+  {
+    "slug": "dijkstra-algorithm-unity",
+    "name": "Dijkstra Algorithm Unity",
+    "kind": "Algorithm visualisation",
+    "tagline": "Shortest-path finding, visualised in Unity 3D.",
+    "summary": "Dijkstra's shortest-path algorithm in Unity 3D. Pick two points, block some nodes, and watch it route around them.",
+    "span": 5,
+    "tablet": 6,
+    "visual": "graph",
+    "repo": "Dijkstra-Algorithm-Unity",
+    "stack": ["C#", "Unity 3D"],
+    "highlights": [
+      "Finds the shortest path from A to B",
+      "Routes around blocked nodes",
+      "RTS-style drag selection for choosing multiple nodes"
+    ],
+    "links": [
+      { "label": "Watch the demo", "url": "https://youtu.be/U0Ra8RoUgX8", "primary": true },
+      { "label": "GitHub", "url": "https://github.com/N3evin/Dijkstra-Algorithm-Unity", "icon": "github" }
+    ],
+    "detail": {
+      "overview": [
+        "An implementation of Dijkstra's algorithm in Unity 3D, written in C#. Nodes are laid out in a scene, and the algorithm works out the shortest route between any two of them.",
+        "Nodes can be blocked to act as obstacles, and the path updates to avoid them. Selection works like a strategy game: drag the mouse to select several nodes at once."
+      ]
+    }
+  },
+  {
+    "slug": "global-game-jam-2020",
+    "name": "Global Game Jam 2020",
+    "kind": "Game jam",
+    "tagline": "A game built over a jam weekend.",
+    "summary": "A Global Game Jam 2020 entry — a game made from scratch against the clock.",
+    "span": 3,
+    "tablet": 3,
+    "visual": "none",
+    "repo": "Global-Game-Jam-2020",
+    "stack": ["C#"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/N3evin/Global-Game-Jam-2020", "icon": "github" }
+    ]
+  }
+]
